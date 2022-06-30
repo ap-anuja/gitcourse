@@ -1,5 +1,6 @@
 <x-admin-master>
     @section('content')
+    @include('includes.editor')
     <h1>Create</h1>
     <form method="post" action="{{route('post.store')}}" enctype="multiplart/form-data">
         @csrf
